@@ -17,3 +17,51 @@
     color: whitesmoke;
 }
 
+
+/* nav */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    background: pink;
+    position: fixed;
+    top: -100%;
+    /*   left: -100%; */
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+    font-family: sans-serif;
+    transition: all 0.3s linear;
+  }
+  
+  .navbar-links.active {
+    top: 0;
+    left: 0;
+  }
+  
+  .navbar-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 20px;
+  }
+  
+  .landing {
+    height: 100vh;
+    background: yellow;
+  }
+/* nav ended   */
