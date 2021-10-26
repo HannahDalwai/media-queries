@@ -38,28 +38,53 @@
       </ul>
     </div>
   </div>
-</nav>    
+</nav> <br><br><br><br><br><br><br><br><br><br>
+<div class="container-lg">
 
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <div class="row justify-content-center align-items-center">
+    <div class="display-2">Contact Page </div>
+      <form class="was-validated" method="post"action="https://formspree.io/f/xqkwonnz">
+     
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Comment</label>
+        <textarea  name="comment" class="form-control is-invalid" id="validationTextarea" placeholder="Insert Comment/Inquiry Here" required></textarea>
+        <div class="invalid-feedback">
+          Please enter your message here.
+        </div>
+      </div>
+  
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Email Address</label>
+        <input name="email" class="form-control is-invalid" id="validationTextarea" placeholder="Insert Email Address Here" required></input>
+        <div class="invalid-feedback">
+          Please enter your email address here.
+        </div>
+      </div>
+  
+    
+      <div class="form-check mb-3">
+        <input name="check" type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+        <label class="form-check-label" for="validationFormCheck1">I am Human</label>
+        <div class="invalid-feedback">Check box to verify</div>
+      </div>
+      <div class="mb-3">
+        <select name="reason" class="form-select" required aria-label="select example">
+          <option value="">Subject matter</option>
+          <option value="1">Job offer</option>
+          <option value="2">Internship offer</option>
+          <option value="3">Inquiry</option>
+          <option value="4">Other</option>
+        </select>
+        <div  class="invalid-feedback"  >Example invalid select feedback</div>
+      </div>
+  
+      <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  </div>
+  
     <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted ">
     <!-- Section: Social media -->

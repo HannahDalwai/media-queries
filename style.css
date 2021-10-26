@@ -9,13 +9,15 @@
     margin-top: 160px;
 }
 #bgimg{
-    background-image: url("images/brown.jpg");
+    background-image: url("images/nature-gfedb81a7d_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%
 }
 #h2ftw{
     color: whitesmoke;
+    -webkit-text-stroke-width: 1px; /* 1px Stroke */
+  -webkit-text-stroke-color:#01060c;
 }
 
 
