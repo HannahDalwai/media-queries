@@ -3,13 +3,14 @@
 }
 #Hpicture{
     margin-top: 160px;
-    border-radius:200%
+    border-radius:50%
 }
 #header-text{
     margin-top: 160px;
 }
 #bgimg{
     background-image: url("images/colour-g1b4adf230_1920.jpg");
+    background-repeat: no-repeat;
 }
 #h2ftw{
     color: whitesmoke;
