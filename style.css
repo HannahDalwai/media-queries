@@ -11,7 +11,9 @@
 #bgimg{
     background-image: url("images/colour-g1b4adf230_1920.jpg");
     background-repeat: no-repeat;
+    height: 100%
 }
 #h2ftw{
     color: whitesmoke;
 }
+
