@@ -19,15 +19,12 @@
     -webkit-text-stroke-width: 1px; /* 1px Stroke */
   -webkit-text-stroke-color:#01060c;
 }
-
-
 /* nav */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
   .navbar-links {
     display: flex;
     list-style-type: none;
@@ -45,12 +42,10 @@
     font-family: sans-serif;
     transition: all 0.3s linear;
   }
-  
   .navbar-links.active {
     top: 0;
     left: 0;
   }
-  
   .navbar-button {
     position: fixed;
     top: 0;
@@ -62,12 +57,10 @@
     outline: none;
     padding: 20px;
   }
-  
   .landing {
     height: 100vh;
     background: yellow;
-  }
-/* nav ended   */
-/* cards */
-
-  /* cards ended */
+  }/* nav ended   */
+#abouttext{
+  margin-left: 11%;
+}
