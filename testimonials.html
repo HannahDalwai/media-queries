@@ -6,6 +6,45 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <title>Hannah Dalwai</title>
+    <style>body {
+      padding: 40px 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+    }
+    .grid > article {
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+    .grid > article img {
+      max-width: 100%;
+    }
+    .grid .text {
+      padding: 20px;
+    }
+    body {
+  padding: 40px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.grid > article img {
+  max-width: 100%;
+}
+.grid .text {
+  padding: 20px;
+}
+</style>
 </head>
 <body>
   <!-- navbar -->
@@ -28,7 +67,7 @@
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="testimonal.html">Testimonals</a>
+                <a class="nav-link active" href="testimonials.html">Testimonials</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -39,7 +78,58 @@
   </nav>
 
 <!-- cards -->
-
+<div class="container">
+  <main class="grid">
+    <article>
+      <img src="https://picsum.photos/600/400?image=1083" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+        <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Here's why</a>
+      </div>
+    </article>
+    <article>
+      <img src="https://picsum.photos/600/400?image=1063" alt="Sample photo">
+      <div class="text">
+        <h3>Completely Synergize</h3>
+        <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+        <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Here's how</a>
+      </div>
+    </article>
+    <article>
+      <img src="https://picsum.photos/600/400?image=1056" alt="Sample photo">
+      <div class="text">
+        <h3>Dynamically Procrastinate</h3>
+        <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+        <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Read more</a>
+      </div>
+    </article>
+    <article>
+      <img src="https://picsum.photos/600/400?image=1050" alt="Sample photo">
+      <div class="text">
+        <h3>Best in class</h3>
+        <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
+        <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Just do it...</a>
+      </div>
+    </article>
+    <article>
+      <img src="https://picsum.photos/600/400?image=1041" alt="Sample photo">
+      <div class="text">
+        <h3>Dynamically innovate supply chains</h3>
+        <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+        <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Here's why</a>
+      </div>
+    </article>
+    <article>
+      <img src="https://picsum.photos/600/400?image=1015" alt="Sample photo">
+      <div class="text">
+        <h3>Sanity check</h3>
+        <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+        <a href="https://codepen.io/collection/XdWJOQ/" class="btn btn-primary btn-block">Stop here</a>
+      </div>
+    </article>
+  </main>
+</div>
 
 
 
