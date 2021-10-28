@@ -11,10 +11,6 @@
  padding: 10px;
  float: left;
 }
-#listexample2{
-margin-top: 10px;
-}
-
 header-text{
     margin-top: 160px;
 }
@@ -120,7 +116,7 @@ body{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #fff;
+  background:black;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -135,7 +131,7 @@ body{
   justify-content: flex-end;
 }
 .wrapper .row section{
-  background: #fff;
+  background:black;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -146,7 +142,7 @@ body{
   content: "";
   height: 15px;
   width: 15px;
-  background: #fff;
+  background: black;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -160,7 +156,7 @@ body{
 .row section .icon,
 .center-line .scroll-icon{
   position: absolute;
-  background: #f2f2f2;
+  background: black;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -168,7 +164,7 @@ body{
   border-radius: 50%;
   color: #ff7979;
   font-size: 17px;
-  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow: 0 0 0 4px black, inset 0 2px black, 0 3px 0 4px bisque;
 }
 .center-line .scroll-icon{
   bottom: 0px;
@@ -201,7 +197,7 @@ body{
   
   text-decoration: none;
   background: #ff7979;
-  color: #fff;
+  color:black;
   padding: 7px 15px;
   border-radius: 5px;
   /* font-size: 17px; */
