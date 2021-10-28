@@ -3,14 +3,17 @@
 }
 #Hpicture{
     margin-top: 160px;
-    border-radius:60% ;
+    border-radius:50% ;
+    overflow: hidden;
  border-style: groove;
  border-width: thick;
  border-color: gray;
  padding: 10px;
  float: left;
 }
-#header-text{
+
+
+header-text{
     margin-top: 160px;
 }
 #bgimg{
