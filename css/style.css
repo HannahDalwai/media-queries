@@ -71,32 +71,12 @@ header-text{
   margin-left: 11%;
 }
 /* skills */
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  background-color:transparent;
-}
-.skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 85%; background-color: #2196F3;} /* Blue */
-.js {width: 50%; background-color: #f44336;} /* Red */
-.php {width: 80%; background-color: #808080;} /* Dark Grey */
 /* timeline */
 
 
 
 
-/* skills */
-#skills{
-  margin-top: 0%;
-}
+
   /* carosol */
   #demo{
     padding-right:5%;
@@ -222,3 +202,17 @@ img {
   text-align: center;
 }
 /* animation */
+/* about scroll */
+h1 {
+  color:Green;
+}
+div.scroll {
+  margin:4px, 4px;
+  padding:4px;
+  background-color: green;
+  width: 500px;
+  height: 110px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
