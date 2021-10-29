@@ -166,16 +166,17 @@ img {
 
 .card {
   background-color: white;
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /* height:380px; */
 }
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  background: linear-gradient(to bottom left, #8ec1da 40%, white 100%);
 }
 
 .card_title {
@@ -201,8 +202,6 @@ img {
   text-align: center;
 }
 /* animation */
-
-  
 @keyframes movement{
   0% {
     background-position:0px 0px;
@@ -222,7 +221,6 @@ adiv{
   border-radius:5px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 .centered {
   position: absolute;
@@ -236,20 +234,6 @@ adiv{
   border:1px solid white;
   padding:2rem;
 
-}
-/* about scroll */
-h1 {
-  color:Green;
-}
-div.scroll {
-  margin:4px, 4px;
-  padding:4px;
-  background-color: green;
-  width: 500px;
-  height: 110px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align:justify;
 }
 /* skills */
 .skills {
@@ -275,6 +259,7 @@ div.scroll {
 }
 .skills-bar .bar .info {
   margin-bottom: 8px;
+  
   color: #07374a;
 }
 .skills-bar .bar .progress-line {
@@ -366,3 +351,4 @@ div.scroll {
         width: 100%;
     }
 }      
+/* text */
