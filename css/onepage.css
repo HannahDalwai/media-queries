@@ -14,18 +14,18 @@ html {
   animation: movement 10s linear infinite; 
 }
 
+#green{
+    height: 34%;
+    padding-top: 0;
+    text-align: center;
+    background:darkseagreen;
+}
 
 #about{
     height: 270%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
-}
-#skills{
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background:darkseagreen;
+    background:white;
 }
 #portfolio{
     height: 210%;
