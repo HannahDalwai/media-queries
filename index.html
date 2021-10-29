@@ -1,119 +1,203 @@
 <html>
 <head>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-    <link rel="icon" href="images/HD.png" sizes="16x16">
-    <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="images/HD.png" sizes="16x16">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <style>
+    <link rel="stylesheet" href="css/onepage.css">
+   <style>
       @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
       </style> 
     <title>Hannah Dalwai</title>
-<style>body {
-  background: rgb(43,78,104);
-  color: black;
-  font-family: 'Fira Code', monospace;
-}
-.typewriter {
-  position: absolute;
-  top: 35%;
-  left: 10%;
-}
-.typewriter h1 {
-  border-right: 1px solid white;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 390px;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typewriter 2s steps(25) 1s 1 normal both;
-}
-.typewriter #line-1 {
-  border-right: 1px solid white;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 425px;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typewriter 3s steps(40) 1s 1 normal both;
-  animation-delay: 3.5s;
-}
-#line-2 {
-  border-right: 1px solid white;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 405px;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typewriter 3s steps(40) 1s 1 normal both;
-  animation-delay: 7s;
-}
-@keyframes typewriter {
-  0% {
-    width: 0;
-    border-right: none;
+    <!-- cards -->
+    <style>body {
+        padding: 40px 0;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+      }
+      .grid > article {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      }
+      .grid > article img {
+        max-width: 100%;
+        /* max-height:; */
+      }
+      .grid .text {
+        padding: 20px;
+      }
+      body {
+    padding: 40px 0;
   }
-  0.1% {
-    border-right: 1px solid rgb(220,220,220);
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
   }
-  99.9% {
-    border-right: 1px solid rgb(220,220,220);
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   }
-  100% {
-    border: none;
+  .grid > article img {
+    max-width: 100%;
   }
-}
-i {
-opacity: 0;
-animation: fadeIn 2s ease-in-out;
-animation-delay: 10s;
-animation-fill-mode: forwards;
-padding-top: 1rem;
-padding-left: 20px;
-
-}
-a {
-  color: rgb(220,220,220);
-}
-@keyframes fadeIn {
-from {opacity:0;}
-to {opacity:1;}
-}
-</style>
+  .grid .text {
+    padding: 20px;
+  }
+  </style>
 </head>
-<body id="bgimg">
-     
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></i>empty</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav nav nav-pills" >
-            
-              <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="testimonials.html">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>  
-          </ul>
+<body >     
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></i>empty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav nav nav-pills" >
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                    </li>  
+            </ul>
+            </div>
         </div>
-      </div>
-    </nav>
-<!-- animation -->
-<!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        </nav> 
+    <!-- home -->
+    <section id="home">
+
+    </section>
+    <!-- skills -->
+    <section id="skills" >
+
+    </section>
+    <!-- about -->
+    <section id="about" >
+
+    </section>
+    <!-- portfolio -->
+    <section id="portfolio" >
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/fall-g93027d2b4_1920-min.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/project1.png" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/nature-gfedb81a7d_1920-min(2).jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          
+    </section>
+    <!-- testimonials -->
+    <section id="testimonials" >
+        <div class="container">
+            <main class="grid">
+              <article>
+                <img src="https://picsum.photos/600/400?image=1083" alt="Sample photo">
+                <div class="text">
+                  <h3>Alex Sexwale</h3>
+                  <p>-Lecturer</p>
+                  <p>She is dedicated and hard working hardworking.She goes the extra mile to solving any problem.</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/Emihle2-min.JPG" alt="Sample photo">
+                <div class="text">
+                  <h3>Emihle Cebisa</h3>
+                  <p>-Colleague</p>
+                  <p>Hannah is a team player and she is friendly.</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/d-min(1).jpg" alt="Sample photo">
+                <div class="text">
+                  <h3>DarrenPetersen</h3>
+                  <p>-Colleague</p>
+                  <p>Hannah is an honest,humble and hardworking individual.Who can adapt to most situations and is always willing to help when needed.</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/Amaarah3-min.JPG" alt="Sample photo">
+                <div class="text">
+                  <h3>Amaarah January</h3>
+                  <p>-Colleague</p>
+                  <p> Hannah is a wonderful person to work with.She is very helpful and patient and will always do her very best.</p>>
+                </div>
+              </article>
+              <article>
+                <img src="images/Zharne2-min.JPG" alt="Sample photo">
+                <div class="text">
+                  <h3>Zharne Desember</h3>
+                  <p>-Colleague</p>
+                  <>Hannah is a hardworking person and is always willing to help others. She works well in a team and is dedicated to her work.</>
+                </div>
+              </article>
+              <article>
+                <img src="images/Kyle3(1)-min.JPG" alt="Sample photo">
+                <div class="text">
+                  <h3>Kyle </h3>
+                  <p>-Colleague</p>
+                  <p>Hannah is a very kind and attentive individual,always striving to her best.</p>
+                </div>
+              </article>
+            </main>
+          </div>
+          
+    </section>
+    <!-- contact -->
+    <section id="contact" >
+   <div class="container">
+       <div class="title">Get in touch</div>
+       <form action="#">
+           <div class="user-details">
+               <div class="input-box">
+                   <span class="details">Full Name</span>
+                   <input type="text" placeholder="Enter your name here" required>
+               </div>
+           </div>
+       </form>
+   </div>
+    </section>
 
 
 
@@ -123,16 +207,16 @@ to {opacity:1;}
 
 
 
-      <div class="container-lg" >
+      <!-- <div class="container-lg" >
         <div class="row justify-content-center align-items-center">
  
          <div class="col-lg-6 col-sm-12 text-center d-md-block ">
                   <img id="Hpicture" class="img-fluid" src="images/me-min(1).jpg" alt="">
               </div> 
               <div class="col-lg-6 col-sm-12 text-center text-md-start">
-
+<!-- 
 <!-- animated text -->
-<div class="typewriter">
+<!-- <div class="typewriter">
   <h1>I'm Hannah Dalwai</h1>
   
   <p id="line-1">An Apiring fullstack developer</p>
@@ -144,7 +228,7 @@ to {opacity:1;}
     <span></span>
     Button
   </button>
-  </p>
+  </p>  -->
 
   
   
@@ -220,6 +304,32 @@ to {opacity:1;}
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
+<!-- slideshow  -->
+<script>var slideIndex = 1;
+    showSlides(slideIndex);
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }</script>
 <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
