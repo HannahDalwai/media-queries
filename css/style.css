@@ -102,7 +102,6 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-  padding: 1rem;
 }
 
 .main{
@@ -137,7 +136,7 @@ img {
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color:#8ec1da;
 }
 
 .cards {
@@ -202,6 +201,46 @@ img {
   text-align: center;
 }
 /* animation */
+
+  
+@keyframes movement{
+  0% {
+    background-position:0px 0px;
+  }
+  100%{
+    background-position:560px 0px;
+  }
+}
+adiv{
+  display:block;
+  position:absolute;
+  font-size:2rem;
+  text-align:center;
+  color:white;
+  border:1px solid white;
+  padding:2rem;
+  border-radius:5px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  margin-top: -50px;
+  margin-left: -100px;
+  font-size:2rem;
+  text-align:center;
+  color:white;
+  border:1px solid white;
+  padding:2rem;
+
+}
+
+
+
+
 /* about scroll */
 h1 {
   color:Green;

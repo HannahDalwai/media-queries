@@ -7,11 +7,14 @@ html {
     height: 100%;
 }
 #home {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+  height:400px;
+  background-color:#BFDFEC;
+    background-repeat:repeat-x;
+ background-image:url("https://i.stack.imgur.com/b7z29.png");
+  animation: movement 10s linear infinite; 
 }
+
+
 #about{
     height: 270%;
     padding-top: 150px;
@@ -34,11 +37,11 @@ html {
     height: 260%;
     padding-top: 150px;
     text-align: center;
-    background: pink;
+    background: white;
 }
 #contact{
     height: 150%;
     padding-top: 150px;
     text-align: center;
-    background: red;
+    background:#8ec1da;
 } 
