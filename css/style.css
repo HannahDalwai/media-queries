@@ -2,12 +2,10 @@
   margin-top: 0;
 }
 #Hpicture {
-  margin-top: 160px;
-  border-radius: 50%;
   overflow: hidden;
   border-style: groove;
   border-width: thick;
-  border-color: gray;
+  border-color: darkseagreen;
   padding: 10px;
   float: left;
 }
@@ -269,7 +267,7 @@ adiv {
 }
 .bar .progress-line span {
   position: absolute;
-  background: #25b79f;
+  background: darkseagreen;
   height: 100%;
   left: 2;
   border-radius: 10px;
