@@ -281,16 +281,16 @@ adiv {
   }
 }
 .progress-line .html {
-  width: 80%;
+  width: 45%;
 }
 .progress-line .css {
-  width: 70%;
+  width: 65%;
 }
 .progress-line .bootstrap {
   width: 82%;
 }
 .progress-line .javascript {
-  width: 62%;
+  width: 45%;
 }
 .progress-line .c {
   width: 90%;
@@ -320,16 +320,16 @@ adiv {
   border-radius: 3px;
 }
 .progress-line .html::after {
-  content: "80%";
+  content: "45%";
 }
 .progress-line .css::after {
-  content: "70%";
+  content: "65%";
 }
 .progress-line .bootstrap::after {
   content: "82%";
 }
 .progress-line .javascript::after {
-  content: "62%";
+  content: "45%";
 }
 .progress-line .c::after {
   content: "90%";
