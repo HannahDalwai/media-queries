@@ -6,10 +6,66 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/onepage.css"> 
     <title>Hannah Dalwai</title>
- 
+ <style>.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+.bg-soft-primary {
+    background-color: rgba(64,144,203,.3)!important;
+}
+.bg-soft-success {
+    background-color: rgba(71,189,154,.3)!important;
+}
+.bg-soft-danger {
+    background-color: rgba(231,76,94,.3)!important;
+}
+.bg-soft-warning {
+    background-color: rgba(249,213,112,.3)!important;
+}
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+
+</style>
 </head>
 <body >     
-        <!-- navbar -->
+        <!-- navbar --> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Hannah Dalwai</a>
@@ -47,7 +103,7 @@
 
     </section>
     <!-- about -->
-    <section id="about" >
+    <section id="about">
     
         <div class="container text-center">
             <div class="row">
@@ -57,7 +113,11 @@
                     <p>My Passion for coding began after joining Life Choices Academy.My love for coding and skill level grow with each passing day.</p><br><p>I am a friendly individual by nature and love to enage with people. I am a kind and understanding person but assertive when need be. I am deadline driven, meticulous,hardworking as well as patient and gentle.</p><br><p>Outside of coding I enjoy crocheting and various other needlework. I also enjoy creating art in various meduims. I speand my spare time watching shows and movies or doing a physical activity. 
             
                 </p>
+            </div>
+        </div>
 <!-- skills -->
+<div class="container">
+    <div class="row">
         <div class="skills">
             <div class="skills-bar">
               <div class="bar">
@@ -94,9 +154,67 @@
               </div>
             </div>
           </div>
+        </div>
+        </div>
+        
 <!-- timeline -->
-
+    
+        <div class="col-lg-6 col-sm-12">
+            <div class="card">
+                <div class="card-body" style="float: right;">
+                    <h4 class="card-title mb-5">Horizontal Timeline</h4>
+    
+                    <div class="hori-timeline" dir="ltr">
+                        <ul class="list-inline events">
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-primary text-primary">2 June</div>
+                                    <h5 class="font-size-16">Event One</h5>
+                                    <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge friend</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-success text-success">5 June</div>
+                                    <h5 class="font-size-16">Event Two</h5>
+                                    <p class="text-muted">Everyone realizes why a new common language one could refuse translators.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-danger text-danger">7 June</div>
+                                    <h5 class="font-size-16">Event Three</h5>
+                                    <p class="text-muted">If several languages coalesce the grammar of the resulting simple and regular</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-warning text-warning">8 June</div>
+                                    <h5 class="font-size-16">Event Four</h5>
+                                    <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
     </section>
+     <!-- end card -->
+    
     <!-- portfolio -->
     <section id="portfolio" >
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -200,7 +318,7 @@
     <section id="contact" >
         <div id="contact" class="container-lg">
             <div class="row justify-content-center align-items-center">
-                <form class="was-validated" method="post"action="https://formspree.io/f/xqkwonnz">
+                <form class="was-validated" method="post"  action="https://formspree.io/f/xqkwonnz">
                 <div class="mb-3">
                   <label for="validationTextarea" class="form-label">Comment</label>
                   <textarea  name="comment" class="form-control is-invalid" id="validationTextarea" placeholder="Insert Comment/Inquiry Here" required></textarea>
@@ -229,12 +347,11 @@
                     <option value="4">Other</option>
                   </select>
                   <div  class="invalid-feedback"  >Example invalid select feedback</div>
-                </div>
-                <div class="mb-3">
+                  <div class="mb-3">
                   <button class="btn btn-primary" type="submit">Submit</button>
                   <div>
                 </div>
-              </form>
+            </form>
             </div>
             </div>
     </section>
