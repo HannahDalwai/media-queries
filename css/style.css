@@ -1,89 +1,85 @@
-#contact-header{
-    margin-top: 0;
+#contact-header {
+  margin-top: 0;
 }
-#Hpicture{
-    margin-top: 160px;
-    border-radius:50% ;
-    overflow: hidden;
- border-style: groove;
- border-width: thick;
- border-color: gray;
- padding: 10px;
- float: left;
+#Hpicture {
+  margin-top: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: groove;
+  border-width: thick;
+  border-color: gray;
+  padding: 10px;
+  float: left;
 }
-header-text{
-    margin-top: 160px;
+header-text {
+  margin-top: 160px;
 }
-#bgimg{
-    background-image: url("images/fall-g93027d2b4_1920-min.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%
+#bgimg {
+  background-image: url("images/fall-g93027d2b4_1920-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
-#h2ftw{
-    color: whitesmoke;
-    -webkit-text-stroke-width: 1px; /* 1px Stroke */
-  -webkit-text-stroke-color:#01060c;
+#h2ftw {
+  color: whitesmoke;
+  -webkit-text-stroke-width: 1px; /* 1px Stroke */
+  -webkit-text-stroke-color: #01060c;
 }
 /* nav */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .navbar-links {
-    display: flex;
-    list-style-type: none;
-    flex-direction: column;
-    background: pink;
-    position: fixed;
-    top: -100%;
-    /*   left: -100%; */
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    gap: 20px;
-    font-family: sans-serif;
-    transition: all 0.3s linear;
-  }
-  .navbar-links.active {
-    top: 0;
-    left: 0;
-  }
-  .navbar-button {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    font-size: 30px;
-    background: none;
-    border: none;
-    outline: none;
-    padding: 20px;
-  }
-  .landing {
-    height: 100vh;
-    background: yellow;
-  }/* nav ended   */
-#abouttext{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: pink;
+  position: fixed;
+  top: -100%;
+  /*   left: -100%; */
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+.navbar-links.active {
+  top: 0;
+  left: 0;
+}
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+.landing {
+  height: 100vh;
+  background: yellow;
+} /* nav ended   */
+#abouttext {
   margin-left: 11%;
 }
 /* skills */
 /* timeline */
 
-
-
-
-
-  /* carosol */
-  #demo{
-    padding-right:10%;
-    padding-left: 10%;
-  }
-  /* new carosal */
-  @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+/* carosol */
+#demo {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+/* new carosal */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 /* Design */
 *,
@@ -98,21 +94,21 @@ html {
 
 body {
   color: #272727;
-  font-family: 'Quicksand', serif;
+  font-family: "Quicksand", serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
 }
 
-.main{
+.main {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
 }
 
 img {
@@ -136,7 +132,7 @@ img {
 }
 
 .btn:hover {
-  background-color:#8ec1da;
+  background-color: #8ec1da;
 }
 
 .cards {
@@ -192,33 +188,33 @@ img {
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.25rem;
   font-weight: 400;
 }
-.made_by{
+.made_by {
   font-weight: 400;
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
 }
 /* animation */
-@keyframes movement{
+@keyframes movement {
   0% {
-    background-position:0px 0px;
+    background-position: 0px 0px;
   }
-  100%{
-    background-position:560px 0px;
+  100% {
+    background-position: 560px 0px;
   }
 }
-adiv{
-  display:block;
-  position:absolute;
-  font-size:2rem;
-  text-align:center;
-  color:white;
-  border:1px solid white;
-  padding:2rem;
-  border-radius:5px;
+adiv {
+  display: block;
+  position: absolute;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -228,19 +224,18 @@ adiv{
   left: 38%;
   margin-top: -50px;
   margin-left: -100px;
-  font-size:2rem;
-  text-align:center;
-  color:white;
-  border:1px solid white;
-  padding:2rem;
-
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 2rem;
 }
 /* skills */
 .skills {
   position: relative;
-   top: 50%;
-  left: 50%; 
-
+  top: 50%;
+  left: 50%;
+  width: fit-content;
   margin-right: 15%;
   transform: translate(-50%, -50%);
   background: #fff;
@@ -259,7 +254,7 @@ adiv{
 }
 .skills-bar .bar .info {
   margin-bottom: 8px;
-  
+
   color: #07374a;
 }
 .skills-bar .bar .progress-line {
@@ -343,60 +338,74 @@ adiv{
 }
 /* ////........Media Query........//// */
 @media (max-width: 700px) {
-    .skills{
-        width: 80%;
-    }
+  .skills {
+    width: 80%;
+  }
 
-    .skills-bar .bar .progress-line{
-        width: 100%;
-    }
-}      
+  .skills-bar .bar .progress-line {
+    width: 100%;
+  }
+}
 /* text */
 .title-word {
   animation: color-animation 4s linear infinite;
 }
 
 .title-word-1 {
-  --color-1: #DF8453;
+  --color-1: #df8453;
   --color-2: #cecbd6;
-  --color-3: #E4A9A8;
+  --color-3: #e4a9a8;
 }
 
 .title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
 }
 
 .title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
 }
 
 .title-word-4 {
   --color-1: #cecbd6;
-  --color-2: #DF8453;
-  --color-3: #E4A9A8;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
 }
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
 }
 
 /* Here are just some visual styles. 🖌 */
 
 .container {
   display: grid;
-  place-items: center;  
-  float:initial;
-  height: 100%
+  place-items: center;
+  float: initial;
+  height: 100%;
 }
 
 .title {
